@@ -338,6 +338,7 @@ p {
   .navigation {
     position: static;
     width: 50%;
+    height: auto;
     padding-right: 10px;
     padding-left: 10px;
     background-color: hsla(0, 0%, 100%, .6);
@@ -349,8 +350,7 @@ p {
   .thumbnail {
     margin-right: 14px;
     margin-bottom: 15px;
-  }
-}
+  }}
 
 .div-block {
   margin-top: 7.25em;
@@ -360,10 +360,10 @@ button, html input[type="button"], input[type="reset"] {
   margin-top: 4pt;
   font-size: 8pt;
   margin-right: 4pt;
-  padding-top: 4pt;
-  padding-bottom: 4pt;
-  padding-left: 8pt;
-  padding-right: 8pt;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  padding-left: 9.5pt;
+  padding-right: 9.5pt;
   background-color: dimgrey;
   color: black;
 }
@@ -395,31 +395,27 @@ p {
 
 input#submit-input {
   font-size: 8pt;
-  padding-top: 5.5pt;
-  padding-bottom: 5.5pt;
-  padding-left: 8pt;
-  padding-right: 8pt;
-  background-color: #ebebeb;
-  color: dimgrey;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  margin-top: 4pt;
   float: right;
-  margin-right: 10pt;
+  width: 53.75pt;
+  color: white;
+  background-color: black;
+  padding-top: 7pt;
+  padding-bottom: 7.5pt;
+  border: 0;
+  margin-right: 10.5pt;
 }
 
 input#submit-input:hover {
-  background-color: dimgrey;
-  color: black;
+  background-color: #ebebeb;
+  color: dimgrey;
   cursor: pointer;
 }  
 
 input#input-bar {
-  margin-top: 3em;
-  background-color: #ebebeb;
-  border-color: #ebebeb;
-  font-size: 12pt;
+  margin-top: 6pt;
+  background-color: black;
+  border-color: black;
+  font-size: 11pt;
   padding-top: 4pt;
   padding-bottom: 4pt;
   padding-left: 8pt;
@@ -438,14 +434,47 @@ input#input-bar::placeholder {
 }
 
 #save-button, #delete-button {
-  margin-left: -1pt;
-  float: right;
+  font-size: 8pt;
+  float: left;
+  width: 52.5pt;
+  color: dimgrey;
+  background-color: #ebebeb;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
 }
 
-#save-button-container {
-  margin-right: 8pt;
+#save-button:hover {
+  color: white;
+  background-color: black;
+}
+
+#delete-button:hover {
+  color: white;
+  background-color: black;
 }
 
 form {
   margin-left: 8pt;
+}
+
+form:hover #in1{
+  display: block;
+}
+
+#in1 {
+  margin-top: -1em;
+  margin-right: 5pt;
+  width: 220px;
+  height: auto;
+  display: none;
+}
+
+#in2 {
+  width: 20px;
+  height: auto;
+  display: none;
+}
+
+#modify-content-container {
+ font-size: 9pt;
 }
