@@ -125,7 +125,7 @@ p {
   right: 5px;
   z-index: 10;
   width: 275px;
-  height: 250px;
+  height: 275px;
   margin-left: 0px;
   padding: 33px 19px 38px;
   border-color: #ebebeb;
@@ -390,7 +390,11 @@ button:focus {
 }
 
 p {
-  display:none;
+  background-color: #ebebeb;
+  position: static;
+  margin: -21px 5px 27px 0px;
+  width: 300px;
+  display: block;
 }
 
 input#submit-input {
@@ -461,6 +465,10 @@ form:hover #in1{
   display: block;
 }
 
+form:hover #in2{
+  display: block;
+}
+
 #in1 {
   margin-top: -1em;
   margin-right: 5pt;
@@ -470,11 +478,15 @@ form:hover #in1{
 }
 
 #in2 {
-  width: 20px;
+  width: 100px;
   height: auto;
+  margin-left: 110px;
+  margin-top: -50px;
   display: none;
 }
 
 #modify-content-container {
  font-size: 9pt;
+ margin-top: 10pt;
+ cursor: pointer;
 }
